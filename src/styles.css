@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: aliceblue;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  margin-left: 40px;
+  line-height: 1.5;
+  /* height: auto; */
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+.btn-fresh {
+  background: #fff;
+  box-shadow: 2px 2px 2px #333;
+  color: #333;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.list {
+  padding: 20px 0 10px 20px;
+  list-style: none;
+  border: 2px solid #ccc;
+  width: 70%;
+}
+
+.name {
+  background-color: #fff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.sub-container {
+  padding-left: 50%;
+  margin-top: 30px;
+  line-height: 3;
+  padding-bottom: 20px;
+}
+
+.input {
+  width: auto;
+  padding: 5px;
+}
+
+.submit {
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+}
+
+#submit {
+  margin-left: 110px;
+}
