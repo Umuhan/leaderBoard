@@ -46,8 +46,8 @@
 
 - **Navigation Bar**
 - **Saves data in local-storage**
-- **Makes a list of Tasks**
-- **Adds and removes a tasks**
+- **Makes a list of names and scores**
+- **Adds and removes a scores**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +91,8 @@ Example commands:
 👤 **Umuhan Mohamud**
 
 - GitHub: [@Umuhan](https://github.com/Umuhan)
-- linkedIn: [@umuhan] (https://www.linkedin.com/in/umuhan-mohamud)
+- twitter: [@Umuhan](https://twitter.com/HannyUmuhan)
+- linkedin: [@Umuhan](https://www.linkedin.com/in/umuhan-mohamud)
 
 <!-- FUTURE FEATURES -->
 
