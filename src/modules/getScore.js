@@ -1,5 +1,5 @@
 // Function to get- the scores for the game
-const gameId = "nW54veMAwMrmu452Q46k";
+const gameId = 'nW54veMAwMrmu452Q46k';
 const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/+${gameId}/scores/`;
 
 const getScores = async () => {

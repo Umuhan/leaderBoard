@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+
   /* background: aliceblue; */
   margin-top: 50px;
   margin-left: 40px;
@@ -31,8 +32,6 @@ h1 {
 }
 
 .btn-fresh {
-  /* background: #fff; */
-  /* box-shadow: 2px 2px 2px #333; */
   color: #333;
   padding: 0.5rem 0.5rem;
   border: none;
@@ -46,7 +45,6 @@ h1 {
 .list {
   padding: 20px 0 10px 20px;
   list-style: none;
-  /* border: 2px solid #ccc; */
   width: 70%;
 }
 

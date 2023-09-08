@@ -1,12 +1,12 @@
-const url =
-  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/";
-const playData = { name: "UMohamud" };
+// function to generate game id
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
+const playData = { name: 'UMohamud' };
 
-const gameData = async (url = "", data = {}) => {
+const gameData = async (url = '', data = {}) => {
   const response = await fetch(url, {
-    method: "POST",
+    method: 'POST',
     headers: {
-      "Content-type": "application/json; charset=UTF-8",
+      'Content-type': 'application/json; charset=UTF-8',
     },
     body: JSON.stringify(data),
   });
