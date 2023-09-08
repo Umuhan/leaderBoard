@@ -6,8 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-
-  /* background: aliceblue; */
+  background: aliceblue;
   margin-top: 50px;
   margin-left: 40px;
 }
@@ -32,6 +31,8 @@ h1 {
 }
 
 .btn-fresh {
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 2px #ccc;
   color: #333;
   padding: 0.5rem 0.5rem;
   border: none;
@@ -46,6 +47,14 @@ h1 {
   padding: 20px 0 10px 20px;
   list-style: none;
   width: 70%;
+  height: auto;
+  border: 2px solid #ccc;
+}
+
+.list-item {
+  line-height: 1.8;
+  text-align: left;
+  border-bottom: 1px solid #f0ecec;
 }
 
 .name {
@@ -75,6 +84,8 @@ main {
   border: 2px solid #ccc;
   border-radius: 5px;
   padding: 0.5rem 0.5rem;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  cursor: pointer;
 }
 
 #submit {
