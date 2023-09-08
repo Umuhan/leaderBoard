@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title>Leaderboard</title> -->
-  <link rel="stylesheet" href="../src/styles.css">
-</head>
-<body>
-  
-  <h1>Leaderboard</h1>
-  <main> 
-  <article class="container">
-    <div class="heading"> 
-      <h3 >Recent scores</h3>
-      <button class="btn-fresh">Refresh</button>
-    </div>
-    <ol class="list">
-      <li>Name: 100</li>
-      <li class="name">Name: 20</li>
-      <li>Name: 50</li>
-      <li class="name">Name: 78</li>
-      <li>Name: 125</li>
-      <li class="name">Name: 77</li>
-      <li>Name: 42</li>
-    </article>
-  <section class="sub-container">
-    <h3>Add your score</h3>
-    <form action=""> 
-     
-    <input type="text" placeholder="Your name" class="input">
-    <input type="text" placeholder="Your score" class="input">
-    <div id="submit"> 
-    <input type="submit" class="submit">
-  </div>
-  </form>
-  </section>
-</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaderboard</title>
+  </head>
+  <body>
+    <h1>Leaderboard</h1>
+    <main>
+      <article class="container">
+        <div class="heading">
+          <h3>Recent scores</h3>
+          <button class="btn-fresh">Refresh</button>
+        </div>
+        <ul class="list" id="scoreList"></ul>
+      </article>
+      <section class="sub-container">
+        <h3>Add your score</h3>
+        <p id="result"></p>
+        <form id="submitForm">
+          <input
+            type="text"
+            placeholder="Your name"
+            class="input nameInput"
+            id="nameInput"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Your score"
+            class="input scoreInput"
+            id="scoreInput"
+            required
+          />
+          <div id="submit">
+            <input type="submit" id="submitBtn" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>

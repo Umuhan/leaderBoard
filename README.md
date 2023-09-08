@@ -7,16 +7,15 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🤯 Project walkthrough](#walk-through)
-- [💻 Getting Started](#getting-started)
 
-  - [Setup](#setup)
+- [💻 Getting Started](#getting-started)
+- - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
 
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -33,19 +32,22 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
+1.HTML5 2. CSS3 3. JavaScript 4. Webpack 5. Linters
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
   <li>JavaScript</li>
-  <li>Webpack</li>
+  <li>Webpack</li
 </ul>
 
 ### Key Features <a name="key-features"></a>
 
-- **Navigation Bar**
-- **Saves data in local-storage**
+- **Arrow functions**
+- **Async and wait js features**
+- **API to get game Id**
 - **Makes a list of names and scores**
 - **Adds and removes a scores**
 
@@ -99,6 +101,7 @@ Example commands:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Desktop Version**
+- **mobile Version**
 - **More Methods**
 - **Well-Designed Graphical User Interface**
 
@@ -132,6 +135,6 @@ I would like to say that, I am really greatful to the Microverse community.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
