@@ -1,6 +1,6 @@
-const theUrl =
+const url =
   "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/";
-const playData = { name: "Umu" };
+const playData = { name: "UMohamud" };
 
 const gameData = async (url = "", data = {}) => {
   const response = await fetch(url, {
@@ -13,6 +13,6 @@ const gameData = async (url = "", data = {}) => {
   return response.json();
 };
 
-gameData(theUrl, playData).then((res) => {
+gameData(url, playData).then((res) => {
   console.log(res);
 });

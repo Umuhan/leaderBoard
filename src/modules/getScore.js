@@ -1,21 +1,12 @@
 // Function to get- the scores for the game
-const gameId = "ZQaQBo6va9D34s0Q7FDQ";
+const gameId = "nW54veMAwMrmu452Q46k";
 const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/+${gameId}/scores/`;
 
 const getScores = async () => {
-  let listScores;
-  try {
-    const response = await fetch(`${url}`, {
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    const scoreList = await response.json();
-    listScores = scoreList.result;
-  } catch (error) {
-    console.log(error);
-  }
-  return listScores;
+  const response = await fetch(url);
+  const responseData = await response.json();
+
+  return responseData;
 };
 
 export default getScores;

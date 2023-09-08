@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <title>Leaderboard</title> -->
-    <link rel="stylesheet" href="styles.css" />
+    <title>Leaderboard</title>
   </head>
   <body>
     <h1>Leaderboard</h1>
@@ -14,14 +13,26 @@
           <h3>Recent scores</h3>
           <button class="btn-fresh">Refresh</button>
         </div>
-        <ol class="list" id="scoreList">
-       
+        <ul class="list" id="scoreList"></ul>
       </article>
       <section class="sub-container">
         <h3>Add your score</h3>
+        <p id="result"></p>
         <form id="submitForm">
-          <input type="text" placeholder="Your name" class="input" id="nameInput" />
-          <input type="text" placeholder="Your score" class="input" id="scoreInput" />
+          <input
+            type="text"
+            placeholder="Your name"
+            class="input nameInput"
+            id="nameInput"
+            required
+          />
+          <input
+            type="number"
+            placeholder="Your score"
+            class="input scoreInput"
+            id="scoreInput"
+            required
+          />
           <div id="submit">
             <input type="submit" id="submitBtn" />
           </div>

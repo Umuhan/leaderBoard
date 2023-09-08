@@ -82,3 +82,8 @@ main {
 #submit {
   margin-left: 110px;
 }
+
+#result {
+  font-size: 10px;
+  color: green;
+}
