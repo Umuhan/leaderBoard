@@ -1,1 +1,32 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="../src/styles.css"><script defer="defer" src="main.bundle.js"></script></head><body><h1>Leaderboard</h1><main><article class="container"><div class="heading"><h3>Recent scores</h3><button class="btn-fresh">Refresh</button></div><ol class="list"><li>Name: 100</li><li class="name">Name: 20</li><li>Name: 50</li><li class="name">Name: 78</li><li>Name: 125</li><li class="name">Name: 77</li><li>Name: 42</li></ol></article><section class="sub-container"><h3>Add your score</h3><form action=""><input placeholder="Your name" class="input"> <input placeholder="Your score" class="input"><div id="submit"><input type="submit" class="submit"></div></form></section></main></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <title>Leaderboard</title> -->
+    <link rel="stylesheet" href="../src/styles.css" />
+  <script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+  <body>
+    <h1>Leaderboard</h1>
+    <main>
+      <article class="container">
+        <div class="heading">
+          <h3>Recent scores</h3>
+          <button class="btn-fresh">Refresh</button>
+        </div>
+        <ol class="list" id="scoreList">
+       
+      </article>
+      <section class="sub-container">
+        <h3>Add your score</h3>
+        <form id="submitForm">
+          <input type="text" placeholder="Your name" class="input" id="nameInput" />
+          <input type="text" placeholder="Your score" class="input" id="scoreInput" />
+          <div id="submit">
+            <input type="submit" id="submitBtn" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
